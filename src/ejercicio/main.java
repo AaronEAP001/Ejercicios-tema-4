@@ -8,6 +8,8 @@ public class main {
         int numeroIf = 8;
         //ejerccio2
         int numeroWhile = 1;
+        //ejercicio5
+        String estacion = "Otoño";
         
         //ejercici0 1
         System.out.println("----- 1 -----");
@@ -41,19 +43,26 @@ public class main {
             System.out.println(String.format("Incrementa el numero -> ( %s )", numeroFor));
         }
         
+        //ejercicio5
+        System.out.println("----- 5 -----");
+        switch (estacion.toLowerCase()) {
+            case "primavera" -> {
+                System.out.println("La estacion es PRIMAVERA");
+            }
+            case "verano" -> {
+                System.out.println("La estacion es VERANO");
+            }
+            case "otoño" -> {
+                System.out.println("La estacion es OTOÑO");
+            }
+            case "invierno" -> {
+                System.out.println("La estacion es INVIERNO");
+            }
+            default -> {
+                System.out.println("Estacion no existe :'v ");
+            }
+        }
         
     }
     
 }
-
-/*
-
-Para el bucle For, crea una variable numeroFor, esta variable tendrá como valor 0 y 
-su condición será que la variable sea igual o menor que 3, se irá incrementando en 1 su valor cada vez que se ejecute y 
-deberá mostrarse por pantalla.
-
-Por último, para el Switch, deberás crear la variable estacion, y distintos case para las cuatro estaciones del año. 
-Dependiendo del valor de la variable estacion se deberá mandar un mensaje 
-por consola informando de la estación en la que está. 
-También habrá que poner un default para cuando el valor de la variable no sea una estación.
-*/

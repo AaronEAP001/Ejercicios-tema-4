@@ -6,7 +6,6 @@ public class main {
         
         //ejercicio 1
         int numeroIf = 8;
-        
         //ejerccio2
         int numeroWhile = 1;
         
@@ -35,6 +34,12 @@ public class main {
             System.out.println(String.format("Incrementa el Numero -> %s ", numeroWhile));
             numeroWhile+=1;
         } while (numeroWhile<3);
+        
+        //ejercicio4
+        System.out.println("----- 4 -----");
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println(String.format("Incrementa el numero -> ( %s )", numeroFor));
+        }
         
         
     }

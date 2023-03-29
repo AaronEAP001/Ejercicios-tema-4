@@ -4,8 +4,14 @@ public class main {
     
     public static void main(String[] args) {
         
+        //ejercicio 1
         int numeroIf = 8;
         
+        //ejerccio2
+        int numeroWhile = 1;
+        
+        //ejercici0 1
+        System.out.println("----- 1 -----");
         if(numeroIf == 0){
             System.out.println("Nomero 0");
         }else{
@@ -16,20 +22,25 @@ public class main {
             }
         }
         
+        //ejercicio2
+        System.out.println("----- 2 -----");
+        while (numeroWhile < 3) {
+            System.out.println(String.format("Incrementa el Numero -> %s ", numeroWhile));
+            numeroWhile+=1;
+        }
+        
+        
     }
     
 }
 
 /*
-En este ejercicio practicarás las estructuras de control, para ello deberás crear:
-
-Usando un if, crear una condición que compare si la variable numeroIf es positivo, negativo, o 0.
-Pista: Los números inferiores a 0 son negativos y los superiores, positivos.
 
 Crea un bucle While, este bucle tendrá que tener como condición que la variable numeroWhile sea inferior a 3, 
 el bloque de código que tendrá el bucle deberá:
-Incrementar el valor de la variable en uno cada vez que se ejecute.
-Mostrarlo por pantalla cada vez que se ejecute.
+ -> Incrementar el valor de la variable en uno cada vez que se ejecute.
+ -> Mostrarlo por pantalla cada vez que se ejecute.
+
 Para el bucle Do While, deberás crear la misma estructura que en el While, pero solo se debe ejecutar una vez.
 Para el bucle For, crea una variable numeroFor, esta variable tendrá como valor 0 y 
 su condición será que la variable sea igual o menor que 3, se irá incrementando en 1 su valor cada vez que se ejecute y 
